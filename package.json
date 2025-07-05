@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@grafbase/sdk": "^0.27.4",
+    "grafbase": "^0.99.3"
+  }
+}
