@@ -1,11 +1,9 @@
 import { g, config } from '@grafbase/sdk'
 
-const User = g.model('User', {
-  name: g.string(),
-  email: g.string().unique(),
+const Post = g.model('Post', {
+  title: g.string(),
 })
 
 export default config({
   schema: g,
 })
-
